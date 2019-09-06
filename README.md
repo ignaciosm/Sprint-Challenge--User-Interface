@@ -53,8 +53,7 @@ Edit this document to include your answers after each question. Make sure to lea
 5. Explain why git is valuable to a team of developers.
 
 
-***Allows the developers to work on the same project at once, to go back to a previous point in time, see differences between versions of the code, etc.
-***
+***Allows the developers to work on the same project at once, to go back to a previous point in time, see differences between versions of the code, etc.***
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 

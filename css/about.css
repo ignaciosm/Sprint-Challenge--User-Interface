@@ -48,8 +48,9 @@ section.about-content {
 	margin-bottom: 30px;
 }
 
-.content-title {
+div.content-title {
 	margin-top: 12px;
+	color: red;
 }
 
 button.more {
