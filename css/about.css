@@ -33,3 +33,40 @@ section.about {
 	border-bottom: 1px dashed;
   margin-bottom: 30px;
 }
+
+section.about-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.content-block {
+	width: 48%;
+	border-bottom: 1px dashed;
+	margin-bottom: 30px;
+}
+
+.content-title {
+	margin-top: 12px;
+}
+
+button.more {
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
