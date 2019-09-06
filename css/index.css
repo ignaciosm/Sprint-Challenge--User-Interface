@@ -149,11 +149,17 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
-    margin: 20px 0;
+    margin: 15px 0;
+    flex-wrap: wrap;
 }
 
-header img {
+.logo{
     width: 20%;
+}
+
+.banner {
+    width: 100%;
+    margin: 35px 0 10px;
 }
 
 .header-nav {
