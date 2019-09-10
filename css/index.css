@@ -144,3 +144,116 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 15px 0;
+    flex-wrap: wrap;
+}
+
+.logo{
+    width: 20%;
+}
+
+.banner {
+    width: 100%;
+    margin: 35px 0 10px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-around;
+    /*align-items: flex-end;*/
+    width: 80%;
+    text-decoration: none;
+}
+
+.header-nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+/*Color Boxes*/
+
+.middle-content .boxes .box1 {
+    background: teal;
+}
+
+.middle-content .boxes .box2 {
+    background: gold;
+}
+
+.middle-content .boxes .box3 {
+    background: cadetblue;
+}
+
+.middle-content .boxes .box4 {
+    background: coral;
+}
+
+.middle-content .boxes .box5 {
+    background: crimson;
+}
+
+.middle-content .boxes .box6 {
+    background: forestgreen;
+}
+
+.middle-content .boxes .box7 {
+    background: darkorchid;
+}
+
+.middle-content .boxes .box8 {
+    background: hotpink;
+}
+
+.middle-content .boxes .box9 {
+    background: indigo;
+}
+
+.middle-content .boxes .box10 {
+    background: dodgerblue;
+}
+
+/*Contact page*/
+form.contact-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.form-element {
+    width: 100%
+    margin: 20px;
+}
+
+.form-label{
+    width: 30%;    
+}
+
+.form-input{
+    width: 70%;
+    
+}
+
+
+/* The animation code */
+@keyframes example {
+  0%   {background-color: red;}
+  25%  {background-color: yellow;}
+  50%  {background-color: blue;}
+  100% {background-color: green;}
+}
+
+/* The element to apply the animation to */
+.nav-item:hover {
+  /*width: 100%;
+  height: 100%*/;
+  background-color: red;
+  animation-name: example;
+  animation-duration: infinite;
+}

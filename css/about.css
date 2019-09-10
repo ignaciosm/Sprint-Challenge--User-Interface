@@ -1,0 +1,81 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	max-width: 100%;
+	border: 1px solid grey;
+}
+
+
+/*html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}*/
+
+section.about {
+	padding: 20px;
+	margin-top: -20px;
+	border-bottom: 1px dashed;
+  margin-bottom: 30px;
+}
+
+section.about-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 0;
+	padding: 0 10px;
+}
+
+.content-block {
+	width: 48%;
+	border-bottom: 1px dashed;
+	margin-bottom: 30px;
+}
+
+div.content-title {
+	margin-top: 12px;
+	color: red;
+}
+
+button.more {
+	padding: 10px 20px;
+	border: 2px solid black;
+	border-radius: 8px;
+	font-size: 16px;
+	margin: 20px 0;
+}
+
+.content-block.work-together {
+	width: 100%;
+	border: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .content-block {
+    width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
